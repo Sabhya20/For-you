@@ -25,9 +25,11 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("img_parallax3.jpg");
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmlsdGg5NXNiZ252YWlla2NqZDk3ZjdmMngwZTR2aXpkZ201eW1tMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif");
   min-height: 400px;
 }
+
+
 
 .caption {
   position: absolute;
