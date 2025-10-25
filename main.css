@@ -15,7 +15,7 @@ body, html {
 
 }
 .bgimg-1 {
-  background-image: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470");
+  background-image: url("img1.png");
   min-height: 100%;
 }
 
@@ -69,3 +69,4 @@ h3 {
     background-attachment: scroll;
   }
 } 
+
