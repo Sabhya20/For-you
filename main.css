@@ -7,7 +7,7 @@ body, html {
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.65;
+  /*opacity: 0.65;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,11 +25,9 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmlsdGg5NXNiZ252YWlla2NqZDk3ZjdmMngwZTR2aXpkZ201eW1tMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif");
+  background-image: url("main1.gif");
   min-height: 400px;
 }
-
-
 
 .caption {
   position: absolute;
@@ -69,4 +67,3 @@ h3 {
     background-attachment: scroll;
   }
 } 
-
