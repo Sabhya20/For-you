@@ -105,3 +105,45 @@ video {
     background-attachment: scroll;
   }
 }
+
+.audio-note {
+  font-size: 18px;
+  color: #ffb6c1;
+  background: rgba(139, 0, 0, 0.7);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1.8s ease-in-out;
+}
+
+audio {
+  display: block;
+  margin: 10px auto;
+  width: 280px;
+  height: 40px;
+  border: 2px solid #ffb6c1;
+  border-radius: 25px;
+  background-color: #fff0f5;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #ffe6eb;
+  border-radius: 25px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: #b30059;
+  background-color: #ffd6e0;
+  border-radius: 25px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  accent-color: #ff99b8;
+}
